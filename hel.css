@@ -48,6 +48,12 @@ header h1{
 
 nav{
     width: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(20px);
+    background-color: rgba(135, 197, 209, 0.371);
+
 }
 nav ul{
     display: flex;
@@ -65,19 +71,32 @@ nav ul{
     width: 100%;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
 
 }
-.helados{
-   
+.cntp_1_1 h1{
     width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ .cntp_1_1 p{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+.helados{
+    
+    width: 33%;
     height: 300px;
+    margin-bottom: 50px;
     
    
 }
 
 img{
-    width: 200px;
-    height: 200px;
+    border-radius: 35px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
